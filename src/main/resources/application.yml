@@ -1,0 +1,14 @@
+server: 
+  port: 8085
+  
+  spring: 
+   datasource:
+     url: jdbc:mysql://localhost:3308/reservas_bd
+     username: root
+     password: Manchas12345.
+     
+     
+     jpa:
+      Hibernate:
+        ddl-auto: update
+        show-sql: true
